@@ -74,7 +74,7 @@ opacity: 0.7;
     display: inline-block;
     vertical-align: top;
 }
-.useful_videos{
+.useful_videos,.drive,.other_files{
     display: inline-block;
     margin-top: 50px;
     padding-top: 20px;

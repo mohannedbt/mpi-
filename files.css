@@ -1,0 +1,130 @@
+body{
+    background-color: #9296F0;
+}
+a:link { 
+    text-decoration: none;
+    color:white; 
+  } 
+  a:visited { 
+    text-decoration: none;
+    color:white;  
+  } 
+  a:hover { 
+    text-decoration: none; 
+    color:white; 
+  } 
+  a:active { 
+    text-decoration: none; 
+    color:white; 
+  }
+.menu_bar{
+    background-color: black;
+    margin-top: 3px;
+    border: none;
+
+
+}
+.about_us_button , .all_files_button{
+    background-color: black;
+    border:none;
+    color: white;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: opacity 0.1s;
+    
+}
+.all_files_button:hover,.about_us_button:hover{
+background-color: rgb(20, 20, 20);
+opacity: 0.7;
+}
+.all_files_button:active,.about_us_button:active{
+    background-color: rgb(109, 109, 109);
+}
+.logo_image{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.name{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: "Playwrite PL", cursive;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    font-size: 100;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+.Insat_logo{
+    height: 80px;
+    border-radius: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+.useful_videos{
+    display: inline-block;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ width: 300px;
+ height: 400px;
+    margin-left:100px ;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.youtube_logo{
+   width: 100px;
+}
+.youtube_des{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: arial;
+    line-height: 30px;
+    font-weight: bold;
+    vertical-align: top;
+    color: rgb(0, 0, 0);
+    font-size: 100;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.youtube_button{
+    background-color: #9296F0;
+    color: white;
+    border: none;
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 50px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: opacity 0.1s;
+}
+.youtube_button:hover{
+    opacity: 0.9;
+    }
+    .youtube_button:active{
+       opacity: 0.5;
+       box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
